@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: aliceblue;
+  width: 50vw;
+  height: 90vh;
+  margin: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+hr {
+  width: 80%;
+}
+
+input {
+  padding: 5px;
+  border: 1px solid rgb(211, 209, 209);
+  border-radius: 5px;
+}
+
+button {
+  padding: 7px;
+  border: none;
+  background-color: rgb(68, 148, 148);
+  /* color: white; */
+  border-radius: 5px;
+  margin-left: 10px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.select {
+  position: relative;
+  left: 29%;
+  margin-bottom: 5px;
+  border: 1px solid rgb(221, 215, 215);
+  border-radius: 5px;
+}
+
+.tasklist {
+  background-color: rgb(201, 189, 189);
+  width: 80%;
+  height: 60%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.pageno {
+  padding: 3px;
+  background-color: rgb(68, 148, 148);
+  margin: 10px;
+  border-radius: 5px;
+  color: white;
+  margin-right: -1px;
+}
+
+@media (width<=768px) {
+  .container {
+    background-color: aliceblue;
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  .select {
+    position: relative;
+    left: 15%;
+  }
+}
